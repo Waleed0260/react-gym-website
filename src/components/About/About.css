@@ -1,0 +1,66 @@
+.About{
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+}
+.About>h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    /* justify-content: space-around; */
+}
+.aboutus>:nth-child(2){
+    display: flex;
+    flex: 2;
+    margin-top: 0rem;
+    color: white;
+    line-height: 1.5rem;
+    position: relative;
+    left: 4rem;
+    line-height: 1.8rem;
+}
+.aboutus>:nth-child(3){
+    display: flex;
+    flex: 4;
+    position: relative;
+    right: -5rem;
+    /* height: 28vw; */
+    
+    height: 25rem;
+}
+
+.about-blur{
+    width: 20rem;
+    height: 30rem;
+    right: 13rem;
+    top: -10px;
+}
+
+
+@media screen and (max-width:768px) {
+    .aboutus{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutus>:nth-child(2){
+        position: relative;
+        left: 0rem;
+        font-size: 1rem;
+        margin-left: 4px;
+        margin-right: 2px;
+    }
+    .about-img{
+        height: 52vw;
+        left: 1rem;
+    }
+}
+

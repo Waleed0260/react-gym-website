@@ -1,0 +1,318 @@
+.Contact{
+    display: flex;
+    gap: 2rem;
+}
+.contact-us{
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    border: 2px solid rgb(148, 122, 122);
+    width: fit-content;
+    margin-left: 100px;
+    /* box-shadow: 12px 10px 15px -4px rgba(31,73,125,0.2);     */
+    border-top: 10px solid var(--orange);
+    box-shadow: 1px 10px 10px black;
+    border-bottom: 10px solid var(--orange);
+}
+.contact-us>h1{
+    color: white;
+    position: relative;
+    left: 20px;
+}
+.number>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    left: 40px;
+    border-radius: 100%;
+}
+.number>span>img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+}
+.number>:nth-child(2){
+    width: fit-content;
+    font-size: 1.4rem;
+    color: white;
+    margin-top: -50px;
+    margin-left: 110px;
+    width: 25vw;
+}
+.phone>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    padding: 10px;
+    position: relative;
+    left: 40px;
+    border-radius: 100%;
+}
+.phone>span>img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+.phone>:nth-child(2){
+    width: fit-content;
+    font-size: 1.4rem;
+    color: white;
+    margin-top: -40px;
+    margin-left: 110px;
+    width: 25vw;
+}
+.phone-2>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+    left: 40px;
+    border-radius: 100%;
+}
+.phone-2>span>img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+.phone-2>:nth-child(2){
+    width: fit-content;
+    font-size: 1.4rem;
+    color: white;
+    margin-top: -40px;
+    margin-left: 110px;
+    width: 25vw;
+}
+.mail>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+    left: 40px;
+    border-radius: 100%;
+}
+.mail>span>img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+.mail>:nth-child(2){
+    width: fit-content;
+    font-size: 1.4rem;
+    color: white;
+    margin-top: -40px;
+    margin-left: 110px;
+    width: 25vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.get-in-touch{
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 10px 10px black;
+
+    border: 2px solid rgb(148, 122, 122);
+    flex: 4;
+    margin-right: 100px;
+    border-top: 10px solid var(--orange);
+    border-bottom: 10px solid var(--orange);
+}
+.get-in-touch>h1{
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.Form>:nth-child(1){
+    height: 40px;
+    width: 21vw;
+    border: 2px solid black;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.Form>:nth-child(2){
+    height: 40px;
+    width: 21vw;
+    border: 2px solid black;
+    margin-left: 30px;
+    border-radius: 5px;
+
+}
+.Form>:nth-child(3){
+    height: 40px;
+    width: 45vw;
+    border: 2px solid black;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.Form>:nth-child(4){
+    height: 40px;
+    width: 45vw;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+.Form>:nth-child(5){
+    height: 150px;
+    width: 45vw;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.Form>:nth-child(6){
+    height: 40px;
+    width: 90px;
+    color: white;
+    background-color: cadetblue;
+    border: 1px solid;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.contact-blur{
+    width: 20rem;
+    height: 30rem;
+    right: 13rem;
+    top: 20px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .Contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-us{
+        display: flex;
+        width: 90vw;
+        margin-left: 10px;
+    }
+    .get-in-touch{
+        margin-left: 10px;
+        width: 90vw;
+    }
+    .number>:nth-child(2){
+        font-size: 1.1rem;
+        width: 70vw;
+        margin-left: 65px;
+    }
+    .phone>:nth-child(2){
+        font-size: 1.1rem;
+        margin-left: 65px;
+
+    }
+    .phone-2>:nth-child(2){
+        font-size: 1.1rem;
+        margin-left: 65px;
+
+    }
+    .mail>:nth-child(2){
+        font-size: 1.1rem;
+        margin-left: 65px;
+
+    }
+    .number>span>img{
+        height: 15px;
+        width: 15px;
+    }
+    .number>span{
+        width: 20px;
+        height: 20px;
+        margin-left: -25px;
+    }
+    .phone>span>img{
+        height: 15px;
+        width: 15px;
+    }
+    .phone>span{
+        width: 20px;
+        height: 20px;
+        margin-left: -25px;
+
+    }
+    .phone-2>span>img{
+        height: 15px;
+        width: 15px;
+    }
+    .phone-2>span{
+        width: 20px;
+        height: 20px;
+        margin-left: -25px;
+
+    }
+    .mail>span>img{
+        height: 15px;
+        width: 15px;
+    }
+    .mail>span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        margin-left: -25px;
+    }
+    .Form>:nth-child(1){
+        width: 33vw;
+    }
+    .Form>:nth-child(2){
+        width: 33vw;
+    }
+    .Form>:nth-child(3){
+        width: 71vw;
+    }
+    .Form>:nth-child(4){
+        width: 71vw;
+    }
+    .Form>:nth-child(5){
+        width: 71vw;
+    }
+}
